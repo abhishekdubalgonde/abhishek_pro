@@ -15,12 +15,12 @@
                 <div id="logo">Abhishek<span>.</span></div>
                 <div id="nav">
                     <ul>
-                        <li id="home">Home</li>
-                        <li id="#about">About</li>
-                        <li id="#projects">Projects</li>
-                        <li id="#skills">Skills</li>
-                        <li id="#contact">Contact</li>
-                        <li id="#Theme">
+                        <li id=""><a href="#home"> Home</a></li>
+                        <li id=""><a href="#about"> About</a></li>
+                        <li id=""><a href="#projects"> Projects</a></li>
+                        <li id=""><a href="#skills"> Skills</a></li>
+                        <li id=""><a href="#contact"> Contact</a></li>
+                        <li onclick="myFunction()" id="#Theme">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                 stroke-linejoin="round" class="lucide lucide-sun h-5 w-5"
@@ -42,7 +42,7 @@
             </div>
         </div>
         <div class="sections" id="sections">
-            <div class="home" id="section">
+            <div class="home" id="home">
                 <div id="container">
                     <div class="my_intro">
                         <div class="my_intro_card">
@@ -113,7 +113,7 @@
                         <div class="my_intro_card">
                             <div class="my_pro_img">
                                 <div class="imb_cart">
-                                    <img src="./rocking-star-yash-white-polo-xrbxo0nmvd8mogzm-removebg-preview.png"
+                                    <img src="./abhi.png"
                                         alt="profile img">
                                 </div>
                             </div>
@@ -121,27 +121,22 @@
                     </div>
                 </div>
             </div>
-            <div class="about" id="section about">
+            <div class="about" id="about">
                 <div id="container">
 
                 </div>
             </div>
-            <div class="projects" id="section">
+            <div class="projects" id="projects">
                 <div id="container">
 
                 </div>
             </div>
-            <div id="section">
+            <div class="skills" id="skills">
                 <div id="container">
 
                 </div>
             </div>
-            <div id="section">
-                <div id="container">
-
-                </div>
-            </div>
-            <div id="section">
+            <div class="contact" id="contact">
                 <div id="container">
 
                 </div>
@@ -151,6 +146,12 @@
 
         </div>
     </div>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
 
 </html>
