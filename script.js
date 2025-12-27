@@ -3,8 +3,6 @@ function myFunction() {
     element.classList.toggle("dark-mode");
 }
 
-
-
 async function loadPortfolio() {
     const container = document.getElementById('project-grid_featured');
     const container2 = document.getElementById('project-grid_more');
@@ -85,5 +83,6 @@ async function SkillsLoader() {
         console.error("Error loading skills:", err);
     }
 }
+
 
 SkillsLoader();
